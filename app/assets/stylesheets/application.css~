@@ -1,0 +1,79 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url(/stylesheets/OpenDyslexicWeb/stylesheet.css);
+
+body {
+	background: url("/images/bg.png") no-repeat bottom right;
+	background-size: 100%;
+	background-color: #fdfaf5;
+}
+
+#everything {
+	font-family: opendyslexic;
+}
+
+#header {
+	text-align: center;
+}
+
+.column_box {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column_third {
+	flex: 1;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	min-width: 16rem;
+}
+
+.abilities_box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-basis: 1;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.inline {
+	dt {
+		float: left;
+		clear: left;
+		width: 10rem;
+	}
+}
+
+.ability {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	font-size: 150%;
+	border-style: inset;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+	
