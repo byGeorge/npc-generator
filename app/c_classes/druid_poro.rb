@@ -1,5 +1,5 @@
-class DruidPoro < CClassesParent
-	def self.to_s
+class DruidPoro
+	def message
 		"I am a droodad"
 	end
 end

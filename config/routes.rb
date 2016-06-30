@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   		get 'preview'
       get 'create'
       get 'view'
+      get 'test'
   	end
   end 
 end

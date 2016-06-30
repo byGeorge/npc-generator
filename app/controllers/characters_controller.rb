@@ -816,4 +816,12 @@ class CharactersController < ApplicationController
 			end # end if caster class
 		end #end if npc
 	end #end view
+
+	def test
+		testchar = Character.new
+		testchar.cclass = 1
+		CClassesController.create(testchar)
+		@toprint = CClassesController.print_info
+		@message = "This should be a message"
+	end
 end #end characters_controller

@@ -1,6 +1,6 @@
 class Character < ActiveRecord::Base
-	def self.new
-		puts "oh hey, I'm new"
+	def new
+		@cclassid
 	end
 
 	def self.set_name(name)
@@ -11,7 +11,7 @@ class Character < ActiveRecord::Base
 		@raceid = raceid
 	end
 
-	def self.set_cclass(classid)
+	def set_cclass(classid)
 		@cclassid = classid
 	end
 

@@ -1,5 +1,5 @@
-class BarbarianPoro < CClassesParent
-	def self.to_s
+class BarbarianPoro
+	def message
 		"I am a barbarian. durrrr."
 	end
 end

@@ -1,6 +1,5 @@
-class BardPoro < CClassesParent
-
-	def self.to_s
+class BardPoro
+	def message
 		"I am a bard!"
 	end
 end

@@ -1,0 +1,28 @@
+<div id="everything">
+	<div id="header">
+		<h1>Functionality Testing</h1>
+	</div><!-- end div header -->
+	<div id="body">
+		<p>
+			<label for="race">Race</label>:
+			<%= @toprint %>
+			<%= @message %>
+		</p>
+	</div><!-- end div body -->
+	<div id="footer">
+		<p>
+			<a href='/welcome/index'><button>Home</button></a>
+			<a href='/characters/new'><button>Reset Form</button></a>
+			<a href="/characters/view"><button>View your NPCs</button></a>
+			<% if session[:user] %>
+				<a href='/login/logout'><button>Log out</button></a>
+			<% else %>
+				<a href='/login'><button>Log in</button></a>
+				<a href='/login/new'><button>New User</button></a>
+			<% end %>
+		</p>
+		<p> 
+			The font used on this page, <a href='http://opendyslexic.org/'>OpenDyslexic</a>, is an open-source font that makes reading easier for dyslexic people.
+		</p>
+	</div><!-- end div footer -->
+</div><!-- end div everything -->
