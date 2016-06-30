@@ -532,7 +532,10 @@ class CharactersController < ApplicationController
 	def preview
 		#getting params from form entries
 		race_id_temp = params[:race][:race_id].to_i
-		c_class_id_temp = params[:c_class][:class_id].to_i
+		c_class_id_temp = params[:c_class]
+		if random?(@c_class)
+			@c_class = CClass.all.sample
+		end
 		#m f and n only affect names and are not printed on the sheet
 		@m = params[:m]
 		@f = params[:f]
@@ -544,16 +547,15 @@ class CharactersController < ApplicationController
 		if random?(@race)
 			@race = Race.all.sample
 		end
-		if random?(@c_class)
-			@c_class = CClass.all.sample
-		end
+		Character.cclass = @c_class
 		@lvl = params[:lvl].to_i
 		@lvl = rand(1..20) if params[:lvl] == ""
 
 		# modify stats by class and race
 		modify_by_class(generate_abilities(@lvl))
 		modify_by_race
-		generate_skills(@lvl)
+		CClassesController.generate_skills
+
 		@appearance = Appearance.generate
 		#saving relevant data to string
 		char_temp = @name + "|" + @lvl.to_s + "|" + @race.id.to_s + "|" + 

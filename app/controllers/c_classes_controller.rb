@@ -16,6 +16,7 @@ class CClassesController < ApplicationController
 	# Creates a level 1 character of the proper class.  
 	def self.create(charobj)
 		CClassesController.pick_poro(charobj.cclass)
+		@poro.generate_skills
 	end
 
 	# increases the level of an already-created character object
