@@ -1,0 +1,2 @@
+class DruidPoro < CClassesParent
+end

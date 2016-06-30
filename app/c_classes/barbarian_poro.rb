@@ -1,0 +1,3 @@
+class BarbarianPoro < CClassesParent
+
+end

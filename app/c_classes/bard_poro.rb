@@ -1,0 +1,2 @@
+class BardPoro < CClassesParent
+end

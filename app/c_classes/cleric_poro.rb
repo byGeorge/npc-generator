@@ -1,0 +1,2 @@
+class ClericPoro < CClassesParent
+end
