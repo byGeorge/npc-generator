@@ -1942,3 +1942,1289 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-30 04:01:04 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-20 06:59:17 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (74.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 334ms (Views: 326.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:19 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/application.self-660494a404388f6e1e9138cf3067a5af834fa2cc3ff0ec67b8e5451adc285427.css?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:20 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-20 06:59:21 -0600
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 06:59:24 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:829: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:829: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (58.5ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 06:59:24 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:829: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:829: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:00:44 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:00:52 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:00:52 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:01:10 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:01:16 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.2ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:01:20 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.5ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:01:20 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:01:48 -0600
+
+SyntaxError (/home/george/npc-generator/app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/characters_controller.rb:824: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.1ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:01:56 -0600
+Processing by CharactersController#new as HTML
+  [1m[35mRace Load (83.5ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (74.7ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  Rendered characters/new.html.erb within layouts/application (580.7ms)
+Completed 200 OK in 635ms (Views: 100.9ms | ActiveRecord: 533.5ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:57 -0600
+
+
+Started GET "/assets/application.self-660494a404388f6e1e9138cf3067a5af834fa2cc3ff0ec67b8e5451adc285427.css?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:58 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:59 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:59 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:59 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-20 07:01:59 -0600
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-20 07:03:20 -0600
+Processing by CharactersController#new as HTML
+  [1m[35mRace Load (71.2ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.4ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  Rendered characters/new.html.erb within layouts/application (523.3ms)
+Completed 200 OK in 564ms (Views: 56.7ms | ActiveRecord: 506.6ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:21 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:21 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:21 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:21 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:21 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/application.self-660494a404388f6e1e9138cf3067a5af834fa2cc3ff0ec67b8e5451adc285427.css?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:22 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-20 07:03:23 -0600
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:03:30 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.2ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.3ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+Completed 500 Internal Server Error in 237ms (ActiveRecord: 142.6ms)
+
+NoMethodError (undefined method `cclass=' for #<Class:0x007f41ec094bd0>
+Did you mean?  class):
+  app/controllers/characters_controller.rb:544:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.3ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:04:50 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.4ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.4ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 142.8ms)
+
+NoMethodError (undefined method `cclass=' for #<Class:0x007f41b8db9d58>
+Did you mean?  class):
+  app/controllers/characters_controller.rb:544:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.9ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:05:14 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.9ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.6ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 143.5ms)
+
+NoMethodError (undefined method `CClass=' for #<Class:0x007f41f3cf9e00>
+Did you mean?  class):
+  app/controllers/characters_controller.rb:544:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.6ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:12:57 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.4ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (77.6ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+Completed 500 Internal Server Error in 691ms (ActiveRecord: 662.5ms)
+
+NoMethodError (undefined method `lvl=' for #<Character:0x007f41f2c472b0>
+Did you mean?  level=):
+  app/controllers/characters_controller.rb:549:in `block in preview'
+  app/controllers/characters_controller.rb:546:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:13:12 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.8ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.4ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35m (71.5ms)[0m  BEGIN
+  [1m[36mSQL (74.0ms)[0m  [1mINSERT INTO "characters" ("level") VALUES ($1) RETURNING "id"[0m  [["level", 18]]
+  [1m[35m (72.3ms)[0m  COMMIT
+  [1m[36mElfSyllable Load (74.2ms)[0m  [1mSELECT "elf_syllables".* FROM "elf_syllables"[0m
+  [1m[35mElfName Load (77.4ms)[0m  SELECT "elf_names".* FROM "elf_names"
+Completed 500 Internal Server Error in 1091ms (ActiveRecord: 877.3ms)
+
+NoMethodError (undefined method `generate_skills' for CClassesController:Class):
+  app/controllers/characters_controller.rb:555:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:15:52 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.3ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (71.7ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36m (82.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (71.3ms)[0m  INSERT INTO "characters" ("level") VALUES ($1) RETURNING "id"  [["level", 1]]
+  [1m[36m (72.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mElfSyllable Load (71.9ms)[0m  SELECT "elf_syllables".* FROM "elf_syllables"
+  [1m[36mElfName Load (76.1ms)[0m  [1mSELECT "elf_names".* FROM "elf_names"[0m
+Completed 500 Internal Server Error in 568ms (ActiveRecord: 517.0ms)
+
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  app/controllers/c_classes_controller.rb:17:in `generate_skills'
+  app/controllers/characters_controller.rb:555:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.5ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:16:11 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.5ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.8ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35m (73.1ms)[0m  BEGIN
+  [1m[36mSQL (98.4ms)[0m  [1mINSERT INTO "characters" ("level") VALUES ($1) RETURNING "id"[0m  [["level", 2]]
+  [1m[35m (85.6ms)[0m  COMMIT
+  [1m[36mElfSyllable Load (73.0ms)[0m  [1mSELECT "elf_syllables".* FROM "elf_syllables"[0m
+  [1m[35mElfName Load (71.7ms)[0m  SELECT "elf_names".* FROM "elf_names"
+Completed 500 Internal Server Error in 586ms (ActiveRecord: 544.9ms)
+
+NoMethodError (undefined method `generate_skills' for nil:NilClass):
+  app/controllers/c_classes_controller.rb:19:in `generate_skills'
+  app/controllers/characters_controller.rb:555:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.0ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:17:05 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (73.0ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (71.6ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36m (70.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (71.4ms)[0m  INSERT INTO "characters" ("level") VALUES ($1) RETURNING "id"  [["level", 12]]
+  [1m[36m (72.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mHumanName Load (75.2ms)[0m  SELECT "human_names".* FROM "human_names"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "human_names".* FROM "human_names"[0m
+Completed 500 Internal Server Error in 52896ms (ActiveRecord: 584.9ms)
+
+NoMethodError (undefined method `generate_skills' for nil:NilClass):
+  app/controllers/c_classes_controller.rb:19:in `generate_skills'
+  app/controllers/characters_controller.rb:556:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.1ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:18:03 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.5ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.5ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35m (71.2ms)[0m  BEGIN
+  [1m[36mSQL (74.5ms)[0m  [1mINSERT INTO "characters" ("cclass", "level") VALUES ($1, $2) RETURNING "id"[0m  [["cclass", 1], ["level", 6]]
+  [1m[35m (81.6ms)[0m  COMMIT
+  [1m[36mDwarfName Load (75.1ms)[0m  [1mSELECT "dwarf_names".* FROM "dwarf_names"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "dwarf_names".* FROM "dwarf_names"
+Completed 500 Internal Server Error in 13172ms (ActiveRecord: 591.0ms)
+
+NoMethodError (undefined method `generate_skills' for #<BarbarianPoro:0x007f41b89482b0>):
+  app/controllers/c_classes_controller.rb:19:in `generate_skills'
+  app/controllers/characters_controller.rb:556:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:20:00 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.6ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (73.1ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36m (74.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (75.2ms)[0m  INSERT INTO "characters" ("cclass", "level") VALUES ($1, $2) RETURNING "id"  [["cclass", 2], ["level", 18]]
+  [1m[36m (81.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mElfSyllable Load (71.9ms)[0m  SELECT "elf_syllables".* FROM "elf_syllables"
+  [1m[36mElfName Load (73.3ms)[0m  [1mSELECT "elf_names".* FROM "elf_names"[0m
+Completed 500 Internal Server Error in 4268ms (ActiveRecord: 520.5ms)
+
+NoMethodError (undefined method `generate_skills' for #<BardPoro:0x007f41b8333118>):
+  app/controllers/c_classes_controller.rb:19:in `generate_skills'
+  app/controllers/characters_controller.rb:556:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.9ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:20:24 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (72.6ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (71.9ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35m (71.2ms)[0m  BEGIN
+  [1m[36mSQL (84.6ms)[0m  [1mINSERT INTO "characters" ("cclass", "level") VALUES ($1, $2) RETURNING "id"[0m  [["cclass", 4], ["level", 14]]
+  [1m[35m (71.8ms)[0m  COMMIT
+  [1m[36mHumanName Load (106.1ms)[0m  [1mSELECT "human_names".* FROM "human_names"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "human_names".* FROM "human_names"
+Completed 500 Internal Server Error in 13150ms (ActiveRecord: 776.8ms)
+
+NoMethodError (undefined method `generate_skills' for #<DruidPoro:0x007f41f12785c8>):
+  app/controllers/c_classes_controller.rb:19:in `generate_skills'
+  app/controllers/characters_controller.rb:556:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:22:25 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.2ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (73.6ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "id"."class_id" = '1' LIMIT 1
+Completed 500 Internal Server Error in 559ms (ActiveRecord: 437.3ms)
+
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "id"
+LINE 1: SELECT  "c_classes".* FROM "c_classes" WHERE "id"."class_id"...
+                                                     ^
+: SELECT  "c_classes".* FROM "c_classes" WHERE "id"."class_id" = '1' LIMIT 1):
+  app/controllers/characters_controller.rb:538:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.3ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:22:55 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.3ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (78.0ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "id"."class_id" = '1' LIMIT 1
+Completed 500 Internal Server Error in 123629ms (ActiveRecord: 149.2ms)
+
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "id"
+LINE 1: SELECT  "c_classes".* FROM "c_classes" WHERE "id"."class_id"...
+                                                     ^
+: SELECT  "c_classes".* FROM "c_classes" WHERE "id"."class_id" = '1' LIMIT 1):
+  app/controllers/characters_controller.rb:539:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:25:41 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.4ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (75.1ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 0]]
+Completed 500 Internal Server Error in 407ms (ActiveRecord: 299.3ms)
+
+NoMethodError (undefined method `id' for nil:NilClass):
+  app/controllers/characters_controller.rb:548:in `block in preview'
+  app/controllers/characters_controller.rb:546:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:26:37 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.6ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (71.5ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 0]]
+Completed 500 Internal Server Error in 53907ms (ActiveRecord: 143.1ms)
+
+NoMethodError (undefined method `id' for nil:NilClass):
+  app/controllers/characters_controller.rb:549:in `block in preview'
+  app/controllers/characters_controller.rb:547:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:27:35 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (71.9ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (72.9ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (72.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (74.7ms)[0m  INSERT INTO "characters" ("cclass", "level") VALUES ($1, $2) RETURNING "id"  [["cclass", 1], ["level", 6]]
+  [1m[36m (72.5ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 22394ms (ActiveRecord: 436.3ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:498:in `modify_by_race'
+  app/controllers/characters_controller.rb:555:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:43:11 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (73.8ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (72.7ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 21671ms (ActiveRecord: 146.5ms)
+
+NoMethodError (undefined method `create' for CharactersController::CharTemp:Class):
+  app/controllers/characters_controller.rb:584:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.9ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:44:29 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.4ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (70.9ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 142.4ms)
+
+NoMethodError (undefined method `CharTemp' for #<CharactersController:0x007f41f0f55198>
+Did you mean?  character_path):
+  app/controllers/characters_controller.rb:584:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:44:45 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (98.9ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (105.2ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 204.1ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:535:in `modify_by_race'
+  app/controllers/characters_controller.rb:592:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:45:05 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.2ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.3ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 57288ms (ActiveRecord: 142.5ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:535:in `modify_by_race'
+  app/controllers/characters_controller.rb:592:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.7ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:46:59 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.8ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.2ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 35330ms (ActiveRecord: 143.0ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:541:in `modify_by_race'
+  app/controllers/characters_controller.rb:598:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.4ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:49:16 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.4ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.2ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 26808ms (ActiveRecord: 142.6ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:541:in `modify_by_race'
+  app/controllers/characters_controller.rb:598:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.1ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:50:05 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.1ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.3ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 19934ms (ActiveRecord: 142.5ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:541:in `modify_by_race'
+  app/controllers/characters_controller.rb:598:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.5ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:51:16 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.6ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.6ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 143.1ms)
+
+NoMethodError (undefined method `_level' for #<CharactersController::CharTemp:0x007f41f3b34f70>
+Did you mean?  add_level):
+  app/controllers/characters_controller.rb:593:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:51:50 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.0ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (73.8ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 144.7ms)
+
+NoMethodError (undefined method `level_up' for CClassesController:Class):
+  app/controllers/characters_controller.rb:32:in `block in add_level'
+  app/controllers/characters_controller.rb:32:in `times'
+  app/controllers/characters_controller.rb:32:in `add_level'
+  app/controllers/characters_controller.rb:19:in `set_level'
+  app/controllers/characters_controller.rb:593:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:52:49 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.0ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.3ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 142.3ms)
+
+NoMethodError (undefined method `cclass' for #<CharactersController::CharTemp:0x007f41f2835e10>
+Did you mean?  class):
+  app/controllers/c_classes_controller.rb:24:in `level_up'
+  app/controllers/characters_controller.rb:32:in `block in add_level'
+  app/controllers/characters_controller.rb:32:in `times'
+  app/controllers/characters_controller.rb:32:in `add_level'
+  app/controllers/characters_controller.rb:19:in `set_level'
+  app/controllers/characters_controller.rb:593:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:53:17 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.4ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.4ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 142.7ms)
+
+NoMethodError (undefined method `message' for #<BarbarianPoro:0x007f41e404b820>):
+  app/controllers/c_classes_controller.rb:25:in `level_up'
+  app/controllers/characters_controller.rb:32:in `block in add_level'
+  app/controllers/characters_controller.rb:32:in `times'
+  app/controllers/characters_controller.rb:32:in `add_level'
+  app/controllers/characters_controller.rb:19:in `set_level'
+  app/controllers/characters_controller.rb:593:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:54:39 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (71.4ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (71.3ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 142.7ms)
+
+NoMethodError (undefined method `level_up' for #<BarbarianPoro:0x007f41b8152060>):
+  app/controllers/c_classes_controller.rb:24:in `level_up'
+  app/controllers/characters_controller.rb:32:in `block in add_level'
+  app/controllers/characters_controller.rb:32:in `times'
+  app/controllers/characters_controller.rb:32:in `add_level'
+  app/controllers/characters_controller.rb:19:in `set_level'
+  app/controllers/characters_controller.rb:593:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.1ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-20 07:55:20 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (72.4ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (98.2ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 4705ms (ActiveRecord: 170.6ms)
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/characters_controller.rb:541:in `modify_by_race'
+  app/controllers/characters_controller.rb:597:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.6ms)

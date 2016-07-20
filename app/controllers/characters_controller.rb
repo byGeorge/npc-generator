@@ -1,5 +1,48 @@
 class CharactersController < ApplicationController
 
+	class CharTemp
+		def new
+			@cclass
+			@level
+			@race
+		end
+
+		def set_cclass(cclass)
+			@cclass = cclass
+		end
+
+		def get_cclass
+			@cclass
+		end
+
+		def set_level(level)
+			@level ? add_level(level - @level) : add_level(level)
+		end
+
+		def get_level
+			@level
+		end
+
+		def add_level(level)
+			if level < 0 
+				#functionality does not exist. Do nothing for now
+			elsif level == 0
+				#really do nothing this time
+			else
+				level.times { CClassesController.level_up(self) }
+			end
+		end
+
+		def set_race(race)
+			@race = race
+		end
+
+		def get_race
+			@race
+		end
+
+	end
+
 	#returns a string that converts inches into feet and inches
 	def calculate_height(inches)
 		feet = inches / 12
@@ -532,29 +575,27 @@ class CharactersController < ApplicationController
 	def preview
 		#getting params from form entries
 		race_id_temp = params[:race][:race_id].to_i
-		c_class_id_temp = params[:c_class]
-		if random?(@c_class)
-			@c_class = CClass.all.sample
-		end
+		random?(race_id_temp) ? @race = Race.all.sample : @race = Race.find_by_id(race_id_temp)
+
+		c_class_id_temp = params[:c_class][:class_id].to_i
+		random?(c_class_id_temp) ? @c_class = CClass.all.sample : @c_class = CClass.find_by_id(c_class_id_temp)
+
 		#m f and n only affect names and are not printed on the sheet
 		@m = params[:m]
 		@f = params[:f]
 		@n = params[:n]
-		#turning the form object into a successful database query
-		@race = Race.find_by_id(race_id_temp)
-		@c_class = CClass.find_by_id(c_class_id_temp)
-		#picking a random race/class/etc if the user selected Random
-		if random?(@race)
-			@race = Race.all.sample
-		end
-		Character.cclass = @c_class
-		@lvl = params[:lvl].to_i
-		@lvl = rand(1..20) if params[:lvl] == ""
 
+		params[:lvl] == "" ? @lvl = rand(1..20) : @lvl = params[:lvl].to_i
+
+		charobj = CharTemp.new
+		charobj.set_race(@race)
+		charobj.set_cclass(@c_class.id)
+		charobj.set_level(1)
+		binding.pry
 		# modify stats by class and race
 		modify_by_class(generate_abilities(@lvl))
 		modify_by_race
-		CClassesController.generate_skills
+		CClassesController.generate_skills(charobj)
 
 		@appearance = Appearance.generate
 		#saving relevant data to string
