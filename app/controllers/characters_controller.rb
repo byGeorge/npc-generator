@@ -2,9 +2,20 @@ class CharactersController < ApplicationController
 
 	class CharTemp
 		def new
-			@cclass
+			@cclass	
+			@hp #hit points
+			@hwa #height weight age
 			@level
+			@name
+			@quirks
 			@race
+			@str
+			@dex
+			@con
+			@int
+			@wis
+			@cha			
+			@spells_list
 		end
 
 		def set_cclass(cclass)
@@ -15,22 +26,44 @@ class CharactersController < ApplicationController
 			@cclass
 		end
 
+		def set_hit_points(hp)
+			@hp = hp
+		end
+
+		def get_hit_points
+			@hp
+		end
+
+		def set_height_weight_age(hwa)
+			@hwa = hwa
+		end
+
+		def get_height_weight_age
+			@hwa
+		end
+
 		def set_level(level)
-			@level ? add_level(level - @level) : add_level(level)
+			@level = level
 		end
 
 		def get_level
 			@level
 		end
 
-		def add_level(level)
-			if level < 0 
-				#functionality does not exist. Do nothing for now
-			elsif level == 0
-				#really do nothing this time
-			else
-				level.times { CClassesController.level_up(self) }
-			end
+		def set_name(name)
+			@name = name
+		end
+
+		def get_name
+			@name
+		end
+		
+		def set_quirks(quirks)
+			@quirks = quirks
+		end
+
+		def get_quirks
+			@quirks
 		end
 
 		def set_race(race)
@@ -41,6 +74,61 @@ class CharactersController < ApplicationController
 			@race
 		end
 
+		def set_strength(str)
+			@str = str
+		end
+
+		def get_strength
+			@str
+		end
+
+		def set_dexterity(dex)
+			@dex = dex
+		end
+		
+		def get_dexterity
+			@dex
+		end
+
+		def set_constitution(con)
+			@con = con
+		end
+
+		def get_constitution
+			@con
+		end
+
+		def set_intelligence(int)
+			@int = int
+		end
+
+		def get_intelligence
+			@int
+		end
+
+		def set_wisdom(wis)
+			@wis = wis
+		end
+
+		def get_wisdom
+			@wis
+		end
+
+		def set_charisma(cha)
+			@cha = cha
+		end
+
+		def get_charisma
+			@cha
+		end
+
+		def set_spells_list
+			@spells_list
+		end
+
+		def get_spells_list
+			@spells_list
+		end
 	end
 
 	#returns a string that converts inches into feet and inches
@@ -395,17 +483,6 @@ class CharactersController < ApplicationController
 	#initializes and modifies abilities and skills
 	def modify_by_class(stat)
 		if @c_class.name == "Barbarian"
-			@str = stat[5]
-			@con = stat[4]
-			stat.delete_at(5)
-			stat.delete_at(4)
-			stat.shuffle!
-			@dex = stat[0]
-			@int = stat[1]
-			@wis = stat[2]
-			@cha = stat[3]
-			#hit points for barbarian = 12 + con mod
-			@hp = 12 + (@con-10)/2
 		elsif @c_class.name == "Bard"
 			@cha = stat[5]
 			@dex = stat[4]
@@ -573,31 +650,29 @@ class CharactersController < ApplicationController
 
 	#generates all the data for the preview page
 	def preview
-		#getting params from form entries
-		race_id_temp = params[:race][:race_id].to_i
-		random?(race_id_temp) ? @race = Race.all.sample : @race = Race.find_by_id(race_id_temp)
-
-		c_class_id_temp = params[:c_class][:class_id].to_i
-		random?(c_class_id_temp) ? @c_class = CClass.all.sample : @c_class = CClass.find_by_id(c_class_id_temp)
 
 		#m f and n only affect names and are not printed on the sheet
 		@m = params[:m]
 		@f = params[:f]
 		@n = params[:n]
 
-		params[:lvl] == "" ? @lvl = rand(1..20) : @lvl = params[:lvl].to_i
-
 		charobj = CharTemp.new
+		params[:lvl] == "" ? level = rand(1..20) : level = params[:lvl].to_i
 		charobj.set_race(@race)
-		charobj.set_cclass(@c_class.id)
+		random?(params[:c_class][:class_id]) ? charobj.set_cclass(random(1..CClass.all.count)) : charobj.set_cclass(params[:c_class][:class_id].to_i)
 		charobj.set_level(1)
+		CClassesController.generate_abilities(charobj)
+		while charobj.get_level < level
+			CClassesController.level_up(charobj)
+		end
+		charobj.set_quirks(Appearance.generate)
 		binding.pry
-		# modify stats by class and race
-		modify_by_class(generate_abilities(@lvl))
 		modify_by_race
-		CClassesController.generate_skills(charobj)
+				#getting params from form entries
+		race_id_temp = params[:race][:race_id].to_i
+		random?(race_id_temp) ? @race = Race.all.sample : @race = Race.find_by_id(race_id_temp)
 
-		@appearance = Appearance.generate
+
 		#saving relevant data to string
 		char_temp = @name + "|" + @lvl.to_s + "|" + @race.id.to_s + "|" + 
 			@str.to_s + "|" + @dex.to_s + "|" + @con.to_s + "|" + 
