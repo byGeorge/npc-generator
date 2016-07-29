@@ -3446,3 +3446,53 @@ Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%
   [1m[36mActiveRecord::SchemaMigration Load (73.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by CharactersController#preview as HTML
   Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-29 16:45:41 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (73.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 248ms (Views: 240.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-07-29 16:45:46 -0600
+Processing by CharactersController#new as HTML
+  [1m[35mRace Load (74.0ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (73.6ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  Rendered characters/new.html.erb within layouts/application (553.9ms)
+Completed 200 OK in 599ms (Views: 68.6ms | ActiveRecord: 529.8ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-29 16:45:53 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-29 16:48:49 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (75.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-07-29 17:02:34 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (87.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+Completed 500 Internal Server Error in 14620ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `CharTemp' for CharactersController:Class):
+  app/controllers/characters_controller.rb:661:in `preview'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.6ms)

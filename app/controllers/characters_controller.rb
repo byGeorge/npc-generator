@@ -2,6 +2,7 @@ class CharactersController < ApplicationController
 
 	class CharTemp
 		def new
+			binding.pry
 			@cclass	
 			@hp #hit points
 			@hwa #height weight age
@@ -16,6 +17,7 @@ class CharactersController < ApplicationController
 			@wis
 			@cha			
 			@spells_list
+			binding.pry
 		end
 
 		def set_cclass(cclass)
@@ -655,8 +657,8 @@ class CharactersController < ApplicationController
 		@m = params[:m]
 		@f = params[:f]
 		@n = params[:n]
-
-		charobj = CharTemp.new
+		binding.pry
+		charobj = CharactersController.CharTemp.new
 		params[:lvl] == "" ? level = rand(1..20) : level = params[:lvl].to_i
 		charobj.set_race(@race)
 		random?(params[:c_class][:class_id]) ? charobj.set_cclass(random(1..CClass.all.count)) : charobj.set_cclass(params[:c_class][:class_id].to_i)
