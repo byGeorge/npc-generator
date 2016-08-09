@@ -1,138 +1,5 @@
 class CharactersController < ApplicationController
 
-	class CharTemp
-		def new
-			binding.pry
-			@cclass	
-			@hp #hit points
-			@hwa #height weight age
-			@level
-			@name
-			@quirks
-			@race
-			@str
-			@dex
-			@con
-			@int
-			@wis
-			@cha			
-			@spells_list
-			binding.pry
-		end
-
-		def set_cclass(cclass)
-			@cclass = cclass
-		end
-
-		def get_cclass
-			@cclass
-		end
-
-		def set_hit_points(hp)
-			@hp = hp
-		end
-
-		def get_hit_points
-			@hp
-		end
-
-		def set_height_weight_age(hwa)
-			@hwa = hwa
-		end
-
-		def get_height_weight_age
-			@hwa
-		end
-
-		def set_level(level)
-			@level = level
-		end
-
-		def get_level
-			@level
-		end
-
-		def set_name(name)
-			@name = name
-		end
-
-		def get_name
-			@name
-		end
-		
-		def set_quirks(quirks)
-			@quirks = quirks
-		end
-
-		def get_quirks
-			@quirks
-		end
-
-		def set_race(race)
-			@race = race
-		end
-
-		def get_race
-			@race
-		end
-
-		def set_strength(str)
-			@str = str
-		end
-
-		def get_strength
-			@str
-		end
-
-		def set_dexterity(dex)
-			@dex = dex
-		end
-		
-		def get_dexterity
-			@dex
-		end
-
-		def set_constitution(con)
-			@con = con
-		end
-
-		def get_constitution
-			@con
-		end
-
-		def set_intelligence(int)
-			@int = int
-		end
-
-		def get_intelligence
-			@int
-		end
-
-		def set_wisdom(wis)
-			@wis = wis
-		end
-
-		def get_wisdom
-			@wis
-		end
-
-		def set_charisma(cha)
-			@cha = cha
-		end
-
-		def get_charisma
-			@cha
-		end
-
-		def set_spells_list
-			@spells_list
-		end
-
-		def get_spells_list
-			@spells_list
-		end
-	end
-
 	#returns a string that converts inches into feet and inches
 	def calculate_height(inches)
 		feet = inches / 12
@@ -652,22 +519,15 @@ class CharactersController < ApplicationController
 
 	#generates all the data for the preview page
 	def preview
-
 		#m f and n only affect names and are not printed on the sheet
 		@m = params[:m]
 		@f = params[:f]
 		@n = params[:n]
-		binding.pry
-		charobj = CharactersController.CharTemp.new
-		params[:lvl] == "" ? level = rand(1..20) : level = params[:lvl].to_i
-		charobj.set_race(@race)
-		random?(params[:c_class][:class_id]) ? charobj.set_cclass(random(1..CClass.all.count)) : charobj.set_cclass(params[:c_class][:class_id].to_i)
-		charobj.set_level(1)
-		CClassesController.generate_abilities(charobj)
-		while charobj.get_level < level
-			CClassesController.level_up(charobj)
-		end
-		charobj.set_quirks(Appearance.generate)
+		params[:lvl] == "" ? @level = rand(1..20) : @level = params[:lvl].to_i
+		random?(params[:c_class][:class_id]) ? @cclass = random(1..CClass.all.count) : @cclass = params[:c_class][:class_id].to_i
+		CClassesController.generate_abilities(@cclass)
+		@quirks = Appearance.generate
+
 		binding.pry
 		modify_by_race
 				#getting params from form entries

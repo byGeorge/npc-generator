@@ -14,7 +14,7 @@ class CClassesController < ApplicationController
 	end
 
 	# Creates a level 1 character of the proper class.  
-	def self.generate_abilities(charobj)
+	def self.generate_abilities(cclass)
 		d = [0,0,0,0]
 		stat = [0,0,0,0,0,0]
 		for i in (0..5) 
@@ -30,16 +30,12 @@ class CClassesController < ApplicationController
 		end
 		#then sorts the array so that modify_by_class places stats appropriately
 		stat.sort!
-		CClassesController.pick_poro(charobj.get_cclass)
-		@poro.generate_abilities(charobj, stat)
+		CClassesController.pick_poro(cclass)
+		@poro.generate_abilities(cclass, stat)
 	end
 
 	# increases the level of an already-created character object
-	def self.level_up(charobj)
-		pick_poro(charobj.get_cclass).level_up(charobj)
-	end
-
-	def self.print_info
-		@poro.message
+	def self.level_up(cclass)
+		pick_poro(cclass).level_up
 	end
 end
