@@ -30,7 +30,7 @@ class CClassesController < ApplicationController
 		end
 		#then sorts the array so that modify_by_class places stats appropriately
 		stat.sort!
-		CClassesController.pick_poro(cclass)
+		pick_poro(cclass)
 		@poro.generate_abilities(cclass, stat)
 	end
 

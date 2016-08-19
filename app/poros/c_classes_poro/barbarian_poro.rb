@@ -1,4 +1,8 @@
 class BarbarianPoro
+	def new
+		puts "blah? BLAH!"
+	end
+
 	def generate_abilities(chartemp, stat)
 		chartemp.set_strength(stat[5])
 		chartemp.set_constitution(stat[4])

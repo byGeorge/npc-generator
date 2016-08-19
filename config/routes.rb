@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'login/index'
   get 'login/logout'
   get 'login/new'
+  get 'poros'
   resources :login do
   	collection do
   		get 'logged'
@@ -24,7 +25,6 @@ Rails.application.routes.draw do
   		get 'preview'
       get 'create'
       get 'view'
-      get 'test'
   	end
   end 
 end
