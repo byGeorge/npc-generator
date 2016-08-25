@@ -1,3 +1,0 @@
-class ClericPoro < ClassesInterface
-
-end

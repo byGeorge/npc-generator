@@ -1,3 +1,0 @@
-class DruidPoro < ClassesInterface
-
-end

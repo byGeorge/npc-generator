@@ -1,3 +1,0 @@
-class BarbarianPoro < ClassesInterface
-
-end

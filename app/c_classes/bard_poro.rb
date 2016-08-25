@@ -1,3 +1,0 @@
-class BardPoro < ClassesInterface
-
-end
