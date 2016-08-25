@@ -3080,3 +3080,18 @@ Processing by CharactersController#new as HTML
   [1m[36mCClass Load (74.0ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
   Rendered characters/new.html.erb within layouts/application (554.8ms)
 Completed 200 OK in 595ms (Views: 58.0ms | ActiveRecord: 536.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 13:15:07 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (73.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 244ms (Views: 236.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-08-25 13:15:11 -0600
+Processing by CharactersController#new as HTML
+  [1m[35mRace Load (76.2ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (73.9ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  Rendered characters/new.html.erb within layouts/application (553.7ms)
+Completed 200 OK in 606ms (Views: 77.2ms | ActiveRecord: 527.9ms)
