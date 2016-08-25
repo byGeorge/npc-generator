@@ -823,3 +823,2032 @@ Started GET "/login/logout" for 127.0.0.1 at 2016-06-27 09:46:05 -0600
 Processing by LoginController#logout as HTML
   Rendered login/logout.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 22:57:59 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (79.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 270ms (Views: 262.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:01 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:01 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:01 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:01 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:01 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/application.self-98f4bbfc08fcb04ca17471942b6fa2630a87ff8e9c2134cfb707ca02a2d09bf3.css?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:02 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 22:58:03 -0600
+
+
+Started GET "/images/dice.png" for 127.0.0.1 at 2016-08-24 22:58:04 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/dice.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.6ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2016-08-24 22:58:09 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-08-24 22:58:12 -0600
+Processing by CharactersController#new as HTML
+  [1m[35mRace Load (90.6ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (78.3ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  Rendered characters/new.html.erb within layouts/application (580.4ms)
+Completed 200 OK in 627ms (Views: 63.1ms | ActiveRecord: 563.3ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 22:58:15 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (75.1ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (75.8ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mRace Load (77.1ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (76.2ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35mDwarfName Load (80.8ms)[0m  SELECT "dwarf_names".* FROM "dwarf_names"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "dwarf_names".* FROM "dwarf_names"[0m
+  [1m[35mSpell Load (101.7ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mAppearance Load (80.4ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "appearances".* FROM "appearances"
+  Rendered characters/preview.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2070ms (Views: 58.0ms | ActiveRecord: 1146.5ms)
+
+
+Started GET "/images/dice.png" for 127.0.0.1 at 2016-08-24 22:58:17 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/dice.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 22:58:49 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (75.4ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (75.2ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mRace Load (78.2ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (76.5ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36mHumanName Load (78.1ms)[0m  [1mSELECT "human_names".* FROM "human_names"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "human_names".* FROM "human_names"
+  [1m[36mSpell Load (86.1ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mAppearance Load (77.5ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "appearances".* FROM "appearances"
+  Rendered characters/preview.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 935ms (Views: 52.7ms | ActiveRecord: 701.6ms)
+
+
+Started GET "/images/dice.png" for 127.0.0.1 at 2016-08-24 22:58:51 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/dice.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.2ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 22:59:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (75.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (73.9ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (73.5ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mRace Load (73.9ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (75.3ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35mElfSyllable Load (76.0ms)[0m  SELECT "elf_syllables".* FROM "elf_syllables"
+  [1m[36mElfName Load (75.6ms)[0m  [1mSELECT "elf_names".* FROM "elf_names"[0m
+  [1m[35mAppearance Load (76.1ms)[0m  SELECT "appearances".* FROM "appearances"
+  Rendered characters/preview.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1923ms (Views: 236.5ms | ActiveRecord: 1484.9ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:23 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/application.self-98f4bbfc08fcb04ca17471942b6fa2630a87ff8e9c2134cfb707ca02a2d09bf3.css?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:24 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+
+Started GET "/images/dice.png" for 127.0.0.1 at 2016-08-24 22:59:25 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/dice.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.3ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 23:00:35 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (73.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (73.8ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (73.8ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mRace Load (73.0ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (78.9ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35mDwarfName Load (74.6ms)[0m  SELECT "dwarf_names".* FROM "dwarf_names"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "dwarf_names".* FROM "dwarf_names"[0m
+  [1m[35mSpell Load (101.3ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mAppearance Load (75.5ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "appearances".* FROM "appearances"
+  Rendered characters/preview.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2822ms (Views: 214.4ms | ActiveRecord: 1461.0ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:39 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:39 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:39 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/application.self-80a7e37f98bd4eabf647d005d5e1145ed143720476feb4b915a5252bd6446878.css?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:40 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:00:41 -0600
+
+
+Started GET "/images/dice2.png" for 127.0.0.1 at 2016-08-24 23:00:42 -0600
+
+ActionController::RoutingError (No route matches [GET] "/images/dice2.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/share/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.7ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/share/rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.0ms)
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 23:01:06 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (73.6ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (73.6ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mRace Load (72.9ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (73.4ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36mElfSyllable Load (75.4ms)[0m  [1mSELECT "elf_syllables".* FROM "elf_syllables"[0m
+  [1m[35mElfName Load (74.0ms)[0m  SELECT "elf_names".* FROM "elf_names"
+  [1m[36mSpell Load (88.6ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mAppearance Load (75.8ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "appearances".* FROM "appearances"
+  Rendered characters/preview.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1200ms (Views: 39.6ms | ActiveRecord: 942.6ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:08 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/application.self-70d7de6de8418fcbb4a97f082558b432d63be9340ce488f3fd0006de34d076fd.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:09 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:10 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:10 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:10 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:10 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:10 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:10 -0600
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 23:01:40 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (74.1ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (73.7ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mRace Load (75.1ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (78.0ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36mElfSyllable Load (73.9ms)[0m  [1mSELECT "elf_syllables".* FROM "elf_syllables"[0m
+  [1m[35mElfName Load (73.4ms)[0m  SELECT "elf_names".* FROM "elf_names"
+  [1m[36mSpell Load (98.3ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mAppearance Load (76.9ms)[0m  SELECT "appearances".* FROM "appearances"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "appearances".* FROM "appearances"
+  Rendered characters/preview.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1535ms (Views: 48.8ms | ActiveRecord: 627.3ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:42 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:42 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:42 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:42 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:42 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/application.self-0648883395da684ff3554aaaf6d31bf3980cfae015832408878ce1e492696ffe.css?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:43 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:01:44 -0600
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 23:04:48 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[36mRace Load (73.2ms)[0m  [1mSELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mCClass Load (73.3ms)[0m  SELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mRace Load (73.3ms)[0m  [1mSELECT "races".* FROM "races"[0m
+  [1m[35mCClass Load (73.4ms)[0m  SELECT "c_classes".* FROM "c_classes"
+  [1m[36mElfSyllable Load (77.6ms)[0m  [1mSELECT "elf_syllables".* FROM "elf_syllables"[0m
+  [1m[35mElfName Load (73.9ms)[0m  SELECT "elf_names".* FROM "elf_names"
+  [1m[36mSpell Load (152.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mAppearance Load (75.5ms)[0m  SELECT "appearances".* FROM "appearances"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  Rendered characters/preview.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 787ms (Views: 41.0ms | ActiveRecord: 672.3ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:49 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:49 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/application.self-565082c21fb132fade5a62900022d620c867f4f7be897c3023cf3755bf194e18.css?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:04:52 -0600
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 23:05:17 -0600
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>""}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (74.7ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (74.4ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mRace Load (78.2ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (84.5ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  [1m[35mDwarfName Load (79.0ms)[0m  SELECT "dwarf_names".* FROM "dwarf_names"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "dwarf_names".* FROM "dwarf_names"[0m
+  [1m[35mSpell Load (93.8ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "spells".* FROM "spells"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "spells".* FROM "spells"[0m
+  [1m[35mAppearance Load (81.4ms)[0m  SELECT "appearances".* FROM "appearances"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  Rendered characters/preview.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1132ms (Views: 57.4ms | ActiveRecord: 568.0ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:18 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:18 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:18 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:18 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:18 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/application.self-a877aadf27aa7095d115f7043df3fdad0ee798cfd8d736ad555810bb4f929e8e.css?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:19 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600

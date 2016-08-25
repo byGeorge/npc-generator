@@ -16,7 +16,7 @@
 @import url(/stylesheets/OpenDyslexicWeb/stylesheet.css);
 
 body {
-	background: url("/images/bg.png") no-repeat bottom right;
+	background: url("/images/dice2.jpg") no-repeat bottom right;
 	background-size: 100%;
 	background-color: #fdfaf5;
 }
@@ -70,6 +70,7 @@ body {
 	border-style: inset;
 	width: 4rem;
 	text-align: center;
+	background-color: #fdfaf5;
 }
 
 .inline dt {  
@@ -92,6 +93,7 @@ body {
 	flex-shrink: 1;
 	flex-basis: 0;
 	text-align: center;
+	background-color: #fdfaf5;
 }
 
 /* it foots. */
