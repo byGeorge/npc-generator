@@ -2967,3 +2967,101 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:36:50 -0600
+
+
+Started GET "/characters/preview?utf8=%E2%9C%93&race%5Brace_id%5D=&lvl=&c_class%5Bclass_id%5D=1&commit=Create+NPC" for 127.0.0.1 at 2016-08-24 23:41:07 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (75.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CharactersController#preview as HTML
+  Parameters: {"utf8"=>"✓", "race"=>{"race_id"=>""}, "lvl"=>"", "c_class"=>{"class_id"=>"1"}, "commit"=>"Create NPC"}
+  [1m[35mRace Load (76.7ms)[0m  SELECT  "races".* FROM "races" WHERE "races"."id" = $1 LIMIT 1  [["id", 0]]
+  [1m[36mCClass Load (73.3ms)[0m  [1mSELECT  "c_classes".* FROM "c_classes" WHERE "c_classes"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRace Load (73.8ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mElfSyllable Load (73.5ms)[0m  [1mSELECT "elf_syllables".* FROM "elf_syllables"[0m
+  [1m[35mElfName Load (74.2ms)[0m  SELECT "elf_names".* FROM "elf_names"
+  [1m[36mAppearance Load (76.1ms)[0m  [1mSELECT "appearances".* FROM "appearances"[0m
+  Rendered characters/preview.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1814ms (Views: 213.0ms | ActiveRecord: 1391.1ms)
+
+
+Started GET "/assets/c_classes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/elf_syllables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/elf_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/form.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/human_names.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/login.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/race.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/spells.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:11 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/application.self-a877aadf27aa7095d115f7043df3fdad0ee798cfd8d736ad555810bb4f929e8e.css?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/c_classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/class.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/elf_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/elf_syllables.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/form.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/human_names.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/login.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:12 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:13 -0600
+
+
+Started GET "/assets/race.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:13 -0600
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:13 -0600
+
+
+Started GET "/assets/spells.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:13 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:13 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:41:13 -0600
