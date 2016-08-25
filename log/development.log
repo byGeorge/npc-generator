@@ -2852,3 +2852,18 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-24 23:05:20 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 23:19:17 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (73.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 270ms (Views: 262.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2016-08-24 23:19:34 -0600
+Processing by CharactersController#new as HTML
+  [1m[35mRace Load (74.7ms)[0m  SELECT "races".* FROM "races"
+  [1m[36mCClass Load (76.5ms)[0m  [1mSELECT "c_classes".* FROM "c_classes"[0m
+  Rendered characters/new.html.erb within layouts/application (551.3ms)
+Completed 200 OK in 589ms (Views: 61.3ms | ActiveRecord: 527.1ms)
