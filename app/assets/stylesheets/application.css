@@ -16,8 +16,9 @@
 @import url(/stylesheets/OpenDyslexicWeb/stylesheet.css);
 
 body {
-	background: url("/images/dice2.jpg") no-repeat bottom right;
-	background-size: 100%;
+	background: url("/images/dice2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 	background-color: #fdfaf5;
 }
 
